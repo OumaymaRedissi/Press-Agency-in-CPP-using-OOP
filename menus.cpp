@@ -10,7 +10,7 @@
 #include<stdlib.h>
 #include <windows.h>
 #include "menus.h"
-
+#include"date.h"
 using namespace std;
 void gotoxy(int x=0,int y=0)
 {
@@ -43,6 +43,8 @@ void menu_sujet()
 {
     system("cls");
     sig();
+    date d1(1,1,2010);
+    date d2;
 	int ch2;
     cout<<"\n\t\t******************************************************************************";
     cout<<"\n\t\t***********************Gestion des sujets d'actualité*************************";
@@ -55,8 +57,9 @@ void menu_sujet()
     cout<<"\n\n\tEntrez votre choix (1-4): ";
     cin>>ch2;
         	switch(ch2){
-            case 1:;
-                break;
+            case 1:
+                    cout << "d1 is " << d1 << "\nd2 is " << d2;
+                    break;
 		  	case 2:;
                 break;
 		  	case 3:menu_sujet_recherche();
@@ -108,7 +111,7 @@ void menu_journaliste()
     cout<<"\n\t\t******************************************************************************";
     cout<<"\n\n\n\n\n\n\n";
     cout<<"\n\n\t1.Ajouter journaliste";
-    cout<<"\n\n\t2.Lister journaliste";
+    cout<<"\n\n\t2.Lister tous les journalistes";
     cout<<"\n\n\t3.Rechercher journaliste";
     cout<<"\n\n\t4.Menu principal";
     cout<<"\n\n\tEntrez votre choix (1-4): ";

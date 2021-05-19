@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1621385021 source:d:\documents\c++\presse\main.cpp
+1621437822 source:d:\documents\c++\presse\main.cpp
 	<iostream>
 	<fstream>
 	<conio.h>
@@ -17,7 +17,7 @@
 
 1621368976 d:\documents\c++\presse\menus.hpp
 
-1621372840 source:d:\documents\c++\presse\menus.cpp
+1621438556 source:d:\documents\c++\presse\menus.cpp
 	<iostream>
 	<fstream>
 	<conio.h>
@@ -30,13 +30,14 @@
 	<stdlib.h>
 	<windows.h>
 	"menus.h"
+	"date.h"
 
-1621384507 d:\documents\c++\presse\menus.h
+1621438521 d:\documents\c++\presse\menus.h
 
-1621384201 source:d:\documents\c++\presse\media.cpp
+1621385495 source:d:\documents\c++\presse\media.cpp
 	"media.h"
 
-1621384201 d:\documents\c++\presse\media.h
+1621385495 d:\documents\c++\presse\media.h
 
 1621385472 source:d:\documents\c++\presse\sujet.cpp
 	"sujet.h"
@@ -48,10 +49,12 @@
 
 1621384243 d:\documents\c++\presse\journaliste.h
 
-1621385004 source:d:\documents\c++\presse\journa.cpp
+1621434081 source:d:\documents\c++\presse\journa.cpp
 	"journa.h"
 
-1621385004 d:\documents\c++\presse\journa.h
+1621434081 d:\documents\c++\presse\journa.h
+	<iostream>
+	<string>
 
 1621385111 source:d:\documents\c++\presse\journaindep.cpp
 	"journaindep.h"
@@ -64,4 +67,11 @@
 
 1621385447 d:\documents\c++\presse\journarec.h
 	"journa.h"
+
+1621437745 source:d:\documents\c++\presse\date.cpp
+	"date.h"
+
+1621438679 d:\documents\c++\presse\date.h
+	<iostream>
+	<string>
 
