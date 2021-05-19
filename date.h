@@ -17,7 +17,10 @@ class date
         void setdate( int, int, int );
         static bool anneeBi( int ); // is date in a leap year?
         bool finMoi( int ) const; // is date at the end of month?
-        friend ostream &operator<<( ostream &output, const date &d );
+        friend ostream &operator<<( ostream &out, const date &d );
+        friend istream &operator>>( ostream &in, const date &d );
+
+
 
 
 };

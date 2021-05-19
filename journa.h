@@ -13,11 +13,11 @@ class journa
         int id_j;
         string prenom;
         string nom;
-        date date_n;
+        string date_n;
         string diplome;
     public:
         journa();
-        journa(int=0 ,string ="", string ="", date,string ="");
+        journa(int=0 ,string ="", string ="",string ="", string ="");
         virtual ~journa();
         journa(const journa& other);
         journa& operator=(const journa& other);

@@ -1,19 +1,19 @@
 #include "journaindep.h"
 
-journaindep::journaindep()
+/*journaindep::journaindep()
 {
     //ctor
-}
+}*/
 
 journaindep::~journaindep()
 {
     //dtor
 }
 
-journaindep::journaindep(const journaindep& other)
+/*journaindep::journaindep(const journaindep& other)
 {
     //copy ctor
-}
+}*/
 
 journaindep& journaindep::operator=(const journaindep& rhs)
 {

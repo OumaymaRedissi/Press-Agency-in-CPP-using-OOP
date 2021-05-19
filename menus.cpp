@@ -10,7 +10,8 @@
 #include<stdlib.h>
 #include <windows.h>
 #include "menus.h"
-#include"date.h"
+#include"journa.h"
+#include "journarec.h"
 using namespace std;
 void gotoxy(int x=0,int y=0)
 {
@@ -43,8 +44,7 @@ void menu_sujet()
 {
     system("cls");
     sig();
-    date d1(1,1,2010);
-    date d2;
+    journarec j1(2,"Oumayma", "Redissi", "1/1/2010" , "Licence", "1/1/2020",1200,"Local");
 	int ch2;
     cout<<"\n\t\t******************************************************************************";
     cout<<"\n\t\t***********************Gestion des sujets d'actualité*************************";
@@ -58,8 +58,8 @@ void menu_sujet()
     cin>>ch2;
         	switch(ch2){
             case 1:
-                    cout << "d1 is " << d1 << "\nd2 is " << d2;
-                    break;
+
+                    cout<<j1;
 		  	case 2:;
                 break;
 		  	case 3:menu_sujet_recherche();

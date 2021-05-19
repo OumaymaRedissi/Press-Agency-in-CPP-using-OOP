@@ -1,11 +1,15 @@
-#include "journa.h"
+#include"journa.h"
 
-journa::journa(int id,string n, string p, date a, string c)
+journa::journa()
+{
+
+}
+journa::journa(int id,string n, string p,string a, string c)
 {
 id_j=id;
 prenom=p;
 nom=n;
-date_n=a;
+date_n= a;
 diplome=c;
 }
 

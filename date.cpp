@@ -54,4 +54,6 @@ ostream &operator<<( ostream &out, const date &d )
         "Septembre"," Octobre"," Novembre"," Décembre" };
    out<<d.jj<<" "<< Mois[d.mm ] <<" "<< d.aaaa;
    return out;
+
 }
+
