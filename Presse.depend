@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1621369750 source:d:\documents\c++\presse\main.cpp
+	<iostream>
+	<fstream>
+	<conio.h>
+	<stdio.h>
+	<process.h>
+	<string.h>
+	<iomanip>
+	<iostream>
+	<conio.h>
+	<stdlib.h>
+	<windows.h>
+	"menus.h"
+
+1621363427 d:\documents\c++\presse\menu.h
+
+1621368976 d:\documents\c++\presse\menus.hpp
+
+1621372840 source:d:\documents\c++\presse\menus.cpp
+	<iostream>
+	<fstream>
+	<conio.h>
+	<stdio.h>
+	<process.h>
+	<string.h>
+	<iomanip>
+	<iostream>
+	<conio.h>
+	<stdlib.h>
+	<windows.h>
+	"menus.h"
+
+1621372195 d:\documents\c++\presse\menus.h
+
