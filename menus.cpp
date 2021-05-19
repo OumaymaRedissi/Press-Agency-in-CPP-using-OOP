@@ -32,7 +32,7 @@ void intro()
 	system("cls");
 	sig();
     gotoxy(35,20);
-    cout<<"\n\nREALISE PAR : OUMAYMA REDISSI - CHAIMA MEZGAR";
+    cout<<"\n\nREALISE PAR : OUMAYMA REDISSI - CHAIMA MEZGAR - ROUA TRABELSI ";
 	cout<<"\n\nECOLE NATIONALE D'INGENIEUR DE CARTHAGE";
     cout<<"\n\n2020- 2021";
 

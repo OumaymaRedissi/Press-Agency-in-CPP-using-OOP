@@ -10,28 +10,14 @@
 #include<stdlib.h>
 #include <windows.h>
 #include "menus.h"
+#include "date.h"
+#include "journa.h"
+#include "journarec.h"
+#include "journaindep.h"
 
 
 using namespace std;
 
-
-struct date
-{
-
-int jour;
-
-int mois;
-
-int annee;
-};
-
-
-struct adresse
-
-{
-    int num;
-    string rue,ville;
-};
 
 int main()
 {
@@ -39,5 +25,7 @@ int main()
     system("COLOR F0");
 	intro();
     menu_principal();
+     journa j1(2,'Oumayma', 'Redissi', 23 , 'Licence');
+    cout<<j1;
     return 0;
 }

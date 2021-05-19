@@ -3,6 +3,7 @@
 
 #include<iostream>
 #include<string>
+#include"date.h"
 using namespace std;
 
 
@@ -12,10 +13,11 @@ class journa
         int id_j;
         string prenom;
         string nom;
-        int anneeNaissance;
+        date date_n;
         string diplome;
     public:
-        journa(int=0 ,string ="", string ="", int =0,string ="");
+        journa();
+        journa(int=0 ,string ="", string ="", date,string ="");
         virtual ~journa();
         journa(const journa& other);
         journa& operator=(const journa& other);

@@ -52,9 +52,10 @@
 1621434081 source:d:\documents\c++\presse\journa.cpp
 	"journa.h"
 
-1621434081 d:\documents\c++\presse\journa.h
+1621448215 d:\documents\c++\presse\journa.h
 	<iostream>
 	<string>
+	"date.h"
 
 1621385111 source:d:\documents\c++\presse\journaindep.cpp
 	"journaindep.h"

@@ -1,11 +1,11 @@
 #include "journa.h"
 
-journa::journa(int id,string n, string p, int an, string c)
+journa::journa(int id,string n, string p, date a, string c)
 {
 id_j=id;
 prenom=p;
 nom=n;
-anneeNaissance=an;
+date_n=a;
 diplome=c;
 }
 
@@ -28,6 +28,6 @@ journa& journa::operator=(const journa& rhs)
 
 ostream& operator<< (ostream& out, journa& j)
 {
-out<<"Identifiant : "<<j.id_j<<endl<<"Prenom : "<<j.prenom<<endl<<"Nom : "<<j.nom<<endl<<"Année de naissance: "<<j.anneeNaissance<<endl;
+out<<"Identifiant : "<<j.id_j<<endl<<"Prenom : "<<j.prenom<<endl<<"Nom : "<<j.nom<<endl<<"Année de naissance: "<<j.date_n<<endl;
 return out;
 }
