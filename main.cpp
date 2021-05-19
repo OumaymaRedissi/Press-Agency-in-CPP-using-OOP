@@ -11,7 +11,28 @@
 #include <windows.h>
 #include "menus.h"
 
+
 using namespace std;
+
+
+struct date
+{
+
+int jour;
+
+int mois;
+
+int annee;
+};
+
+
+struct adresse
+
+{
+    int num;
+    string rue,ville;
+};
+
 int main()
 {
 
