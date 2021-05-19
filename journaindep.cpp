@@ -4,6 +4,11 @@
 {
     //ctor
 }*/
+journaindep::journaindep(int id,string n, string p,string a, string c,string loc, string rep):journa(id,n, p, a,  c)
+{
+location=loc;
+reputation=rep;
+}
 
 journaindep::~journaindep()
 {

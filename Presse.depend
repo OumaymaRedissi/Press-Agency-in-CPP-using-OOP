@@ -19,7 +19,7 @@
 
 1621368976 d:\documents\c++\presse\menus.hpp
 
-1621453534 source:d:\documents\c++\presse\menus.cpp
+1621455210 source:d:\documents\c++\presse\menus.cpp
 	<iostream>
 	<fstream>
 	<conio.h>
@@ -33,6 +33,7 @@
 	<windows.h>
 	"menus.h"
 	"journa.h"
+	"journarec.h"
 
 1621438521 d:\documents\c++\presse\menus.h
 
@@ -59,11 +60,12 @@
 	<string>
 	"date.h"
 
-1621453416 source:d:\documents\c++\presse\journaindep.cpp
+1621457080 source:d:\documents\c++\presse\journaindep.cpp
 	"journaindep.h"
 
-1621385393 d:\documents\c++\presse\journaindep.h
+1621457061 d:\documents\c++\presse\journaindep.h
 	"journa.h"
+	<string>
 
 1621455095 source:d:\documents\c++\presse\journarec.cpp
 	"journarec.h"
